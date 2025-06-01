@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <!-- tailwind css link  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- daisy ui link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- google font  -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+      <!-- font awesome cdn  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class=" h-screen ">
+    <div class="hidden md:block absolute max-h-min">
+      <img src="./images/developer.png" alt="" class="relative md:h-[550px]">
+    </div>
+    <section class="w-11/12 mx-auto py-2 ">
+      <nav class="w-11/12 mx-auto flex flex-col md:flex-row gap-2 md:gap-0 justify-between items-center py-2">
+        <div class="text-3xl md:text-5xl font-bold md:flex-grow  ">Ma<span class="text-orange-400">r</span>y</div>
+        <div class="flex flex-1 md:justify-around items-center justify-end gap-3">
+          <span><a href="https://github.com/jishanprodhan12" target="_blank">Portfolio</a></span>
+          <span><a href="https://github.com/jishanprodhan12/web-dev-recap-first/commit/643bc862e23b9865182cda69819f36531fe1a556" target="_blank">Blog</a></span>
+          <span><button class="btn btn-secondary bg-orange-500 font-bold">Hire Me</button></span> 
+        </div>
+    </nav>
+        <!-- hero sectionn -->
+          <div class=" bg-right-bottom md:bg-[url(./images/header_bg.png)] bg-no-repeat py-5 ">
+            <div class="hero-content flex-col lg:flex-row-reverse  ">
+          <div class=" mx-auto w-auto ">
+            <img
+            src="./images/hardy.png"
+            class="max-w-sm rounded-lg w-full" />
+          </div>
+              <div class="w-full md:w-1/2 mx-auto grid grid-cols-1 gap-3 ">
+                <p class="text-3xl py-2">Hi, I  am</p>
+                <h1 class="text-5xl font-bold">Mary Hardy</h1>
+                <p class="py-6 w-3/4 text-gray-500 md:text-black lg:text-gray-500 ">
+                  Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.
+                </p>
+                <div class="space-x-2 grid gap-3 md:block"> 
+                  <button class="btn btn-primary border-none text-white shadow-none bg-orange-500 font-bold space-x-1 ">
+                    <span>
+                      <i class="fa-solid fa-download"></i>
+                    </span>
+                    <span>Download CV</span>
+                  </button>
+                  <button class="btn btn-outline text-orange-500 font-bold space-x-1">
+                    <span>
+                      <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <span>Contact</span></button>
+                </div>
+              </div>
+            </div>
+          </div>      
+    </section>
+  </header>
+   
+</body>
+</html>
