@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protfolio</title>
-    <!-- tailwind css link  -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- daisy ui link  -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protfolio</title>
+  <!-- tailwind css link  -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- daisy ui link  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
           }
         }
-      </script>
-      <!-- google font  -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-      <!-- font awesome cdn  -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      }
+    }
+  </script>
+  <!-- google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <!-- font awesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-  <header class=" h-screen ">
+
+<body class="fonts">
+  <header class="max-w-fit mx-auto">
     <div class="hidden md:block absolute max-h-min">
       <img src="./images/developer.png" alt="" class="relative md:h-[550px]">
     </div>
@@ -38,42 +44,251 @@
         <div class="text-3xl md:text-5xl font-bold md:flex-grow  ">Ma<span class="text-orange-400">r</span>y</div>
         <div class="flex flex-1 md:justify-around items-center justify-end gap-3">
           <span><a href="https://github.com/jishanprodhan12" target="_blank">Portfolio</a></span>
-          <span><a href="https://github.com/jishanprodhan12/web-dev-recap-first/commit/643bc862e23b9865182cda69819f36531fe1a556" target="_blank">Blog</a></span>
-          <span><button class="btn btn-secondary bg-orange-500 font-bold">Hire Me</button></span> 
+          <span><a
+              href="https://github.com/jishanprodhan12/web-dev-recap-first/commit/643bc862e23b9865182cda69819f36531fe1a556"
+              target="_blank">Blog</a></span>
+          <span><button class="btn btn-secondary bg-orange-500 font-bold">Hire Me</button></span>
         </div>
-    </nav>
-        <!-- hero sectionn -->
-          <div class=" bg-right-bottom md:bg-[url(./images/header_bg.png)] bg-no-repeat py-5 ">
-            <div class="hero-content flex-col lg:flex-row-reverse  ">
+      </nav>
+      <!-- hero sectionn -->
+      <div class=" bg-right-bottom md:bg-[url(./images/header_bg.png)] bg-no-repeat py-5 ">
+        <div class="hero-content flex-col lg:flex-row-reverse  ">
           <div class=" mx-auto w-auto ">
-            <img
-            src="./images/hardy.png"
-            class="max-w-sm rounded-lg w-full" />
+            <img src="./images/hardy.png" class="max-w-sm rounded-lg w-full" />
           </div>
-              <div class="w-full md:w-1/2 mx-auto grid grid-cols-1 gap-3 ">
-                <p class="text-3xl py-2">Hi, I  am</p>
-                <h1 class="text-5xl font-bold">Mary Hardy</h1>
-                <p class="py-6 w-3/4 text-gray-500 md:text-black lg:text-gray-500 ">
-                  Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.
-                </p>
-                <div class="space-x-2 grid gap-3 md:block"> 
-                  <button class="btn btn-primary border-none text-white shadow-none bg-orange-500 font-bold space-x-1 ">
-                    <span>
-                      <i class="fa-solid fa-download"></i>
-                    </span>
-                    <span>Download CV</span>
-                  </button>
-                  <button class="btn btn-outline text-orange-500 font-bold space-x-1">
-                    <span>
-                      <i class="fa-solid fa-phone"></i>
-                    </span>
-                    <span>Contact</span></button>
-                </div>
-              </div>
+          <div class="w-full md:w-1/2 mx-auto grid grid-cols-1 gap-3 ">
+            <p class="text-3xl py-2">Hi, I am</p>
+            <h1 class="text-5xl font-bold">Mary Hardy</h1>
+            <p class="py-6 w-3/4 text-gray-500 md:text-black lg:text-gray-500 ">
+              Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society
+              behaved moments.
+            </p>
+            <div class="space-x-2 grid gap-3 md:block">
+            
+          <a href="./CV/Jishan CV.pdf" download="download">
+            <button class="btn btn-primary border-none text-white shadow-none bg-orange-500 font-bold space-x-1 ">
+             <span>
+               <i class="fa-solid fa-download"></i>
+             </span>
+             <span>Download CV</span>
+           </button>
+          </a>
+
+              <button class="btn btn-outline text-orange-500 font-bold space-x-1">
+                <span>
+                  <i class="fa-solid fa-phone"></i>
+                </span>
+                <span>Contact</span></button>
             </div>
-          </div>      
+          </div>
+        </div>
+      </div>
     </section>
   </header>
-   
+  <main>
+    <section class="my-2 max-w-fit mx-auto">
+      <div class="bg-orange-50 my-4 py-20 md:w-3/4 mx-auto flex justify-center items-center rounded-md w-full">
+        <div
+          class="border-2 p-8 w-3/4 mx-auto flex flex-col gap-2 items-center justify-center rounded-sm bg-white overflow-hidden">
+          <h1 class="text-3xl md:text-4xl font-bold">About Me</h1>
+          <p class="text-sm text-gray-500 text-center">I, m a designer & developer with a passion for web design. I
+            enjoy developing simple, clean and slick
+            websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs
+            while working with me. Delivering work within time and budget which meets clients requirements in our mata.
+          </p>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center w-11/12 mx-auto ">
+            <div class="flex flex-col gap-1 items-center justify-center">
+              <h4 class="text-sm text-gray-500">Name:</h4>
+              <h4 class=" text-sm font-bold">Mary Hardy </h4>
+            </div>
+            <div class="flex flex-col gap-1 items-center justify-center">
+              <h4 class="text-sm text-gray-500">Email:</h4>
+              <h4 class="text-sm font-bold">info@gmail.com </h4>
+            </div>
+            <div class="flex flex-col gap-1 items-center justify-center">
+              <h4 class="text-sm text-gray-500">Date of birth:</h4>
+              <h4 class="font-bold text-sm">11 November 1987</h4>
+            </div>
+            <div class="flex flex-col gap-1 items-center justify-center">
+              <h4 class="text-sm text-gray-500">From:</h4>
+              <h4 class="text-sm font-bold">Los Angeles, USA</h4>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- section wraper  -->
+    <div class="max-w-11/12  mx-auto">
+      <section class="my-2 mx-auto border-dotted flex flex-col gap-6  items-center justify-between py-8 w-11/12 ">
+        <div class="flex items-center justify-center gap-3 flex-col flex-1 ">
+          <h2 class="text-3xl md:text-4xl font-bold text-center  ">What I do</h2>
+          <p class="text-gray-500 text-center w-3/5 mx-auto ">I have more than 10 years experience building software for
+            clients all over the world. Below is a quick overview of my main technical skill sets and technologies i
+            use.
+            Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+        </div>
+        <div class="flex-1 grid md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-5 w-11/12 mx-auto">
+          <!-- card  -->
+          <div class="card bg-base-100 p-3 rounded-md h-fit shadow-sm hover:shadow-lg hover:scale-105">
+            <!-- icon  -->
+            <div class="w-10 h-10  ml-4 mt-4 rounded-sm">
+              <a href="http://vanilla-js.com/" target="_blank">
+                <img src="./images/icons/js.png" alt="js png" class="w-full h-full">
+              </a>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title font-bold">Vanilla JavaScript</h2>
+              <p class="text-gray-500 w-fit mx-auto">List skill/technologies here. You can change the icon above to any
+                of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-base-100 p-3 rounded-md h-fit shadow-sm  hover:shadow-lg hover:scale-105">
+            <!-- icon  -->
+            <div class="w-10 h-10  ml-4 mt-4 rounded-sm">
+              <a href="https://react.dev/" target="_blank">
+                <img src="./images/icons/react.png" alt="js png" class="w-full h-full">
+              </a>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title font-bold">React</h2>
+              <p class="text-gray-500 w-fit mx-auto">List skill/technologies here. You can change the icon above to any
+                of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+          <!-- card 3  -->
+          <div class="card bg-base-100 p-3 rounded-md h-fit shadow-sm hover:shadow-lg hover:scale-105">
+            <!-- icon  -->
+            <div class="w-10 h-10  ml-4 mt-4 rounded-sm">
+              <a href="https://nodejs.org/en" target="_blank">
+                <img src="./images/icons/nodejs.png" alt="js png" class="w-full h-full">
+              </a>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title font-bold">Node.js</h2>
+              <p class="text-gray-500 w-fit mx-auto">List skill/technologies here. You can change the icon above to any
+                of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+          <!-- card 4  -->
+          <div class="card bg-base-100 p-3 rounded-md h-fit shadow-sm hover:shadow-lg hover:scale-105">
+            <!-- icon  -->
+            <div class="w-10 h-10  ml-4 mt-4 rounded-sm">
+              <a href="https://www.mongodb.com/" target="_blank">
+                <img src="./images/icons/mongo.png" alt="js png" class="w-full h-full"></a>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title font-bold">MongoDB</h2>
+              <p class="text-gray-500 w-fit mx-auto">List skill/technologies here. You can change the icon above to any
+                of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+    <!-- summary section  -->
+     <div class="w-11/12 mx-auto">
+       <section class="my-2 w-11/12 mx-auto flex flex-col gap-5 md:gap-10 py-5">
+         <h1 class="text-3xl md:text-4xl text-center font-bold py-4">A summary of My Resume</h1>
+         <!-- Education and exprince  -->
+         <div class="w-11/12 mx-auto flex flex-col md:flex-row justify-evenly gap-8 items-center ">
+               <!-- box 1  -->
+           <div class=" flex-1 ">
+             <h3 class="text-2xl md:text-3xl text-gray-500 font-bold text-center py-4">My Education</h3>
+             <!-- box container -->
+             <div class=" flex flex-col gap-4">
+               <div class=" border-b-2 border-gray-300 p-2 flex flex-col gap-3  justify-center flex-1">
+                 <h4 class="text-xl font-bold">Master in Computer Engineering</h4>
+                 <p class="text-gray-500 font-bold">Harvard University / 2015 - 2017</p>
+                 <p class="text-gray-500 text-sm">List skill/technologies here. You can change the icon above
+                   to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+               </div>
+               <div class=" border-b-2 border-gray-300 p-2 flex flex-col gap-3  justify-center flex-1">
+                 <h4 class="text-xl font-bold">Master in Computer Engineering</h4>
+                 <p class="text-gray-500 font-bold">Harvard University / 2015 - 2017</p>
+                 <p class="text-gray-500 text-sm">List skill/technologies here. You can change the icon above
+                   to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+               </div>
+               <div class=" p-2 flex flex-col gap-3  justify-center">
+                 <h4 class="text-xl font-bold">Master in Computer Engineering</h4>
+                 <p class="text-gray-500 font-bold">Harvard University / 2015 - 2017</p>
+                 <p class="text-gray-500 text-sm">List skill/technologies here. You can change the icon above
+                   to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+               </div>
+             </div>
+           </div>
+               <!-- box 2 -->
+           <div class="flex-1">
+             <h3 class="text-2xl md:text-3xl text-gray-500 font-bold text-center py-4">My Experience</h3>
+             <!-- box container -->
+             <div class=" flex flex-col gap-4">
+               <div class=" border-b-2 border-gray-300 p-2 flex flex-col gap-3  justify-center">
+                 <h4 class="text-xl font-bold">Sr. Font End Developer</h4>
+                 <p class="text-gray-500 font-bold">Apple Inc / 2020 - Current</p>
+                 <p class="text-gray-500 text-sm">List skill/technologies here. You can change the icon above
+                   to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+               </div>
+               <div class=" border-b-2 border-gray-300 p-2 flex flex-col gap-3  justify-center">
+                 <h4 class="text-xl font-bold">Jr. Font End Developer</h4>
+                 <p class="text-gray-500 font-bold">Dribbble Inc / 2018 - 2022</p>
+                 <p class="text-gray-500 text-sm">List skill/technologies here. You can change the icon above
+                   to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+               </div>
+               <div class="p-2 flex flex-col gap-3  justify-center">
+                 <h4 class="text-xl font-bold">HTML Developer</h4>
+                 <p class="text-gray-500 font-bold">Adobe Inc / 2017 - 2018</p>
+                 <p class="text-gray-500 text-sm">List skill/technologies here. You can change the icon above
+                   to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="w-fit mx-auto">
+          <a href="./CV/Jishan CV.pdf" download="download">
+            <button class="btn btn-primary border-none text-white shadow-none bg-orange-500 font-bold space-x-1 ">
+             <span>
+               <i class="fa-solid fa-download"></i>
+             </span>
+             <span>Download CV</span>
+           </button>
+          </a>
+         </div>
+       </section>
+     </div>
+  </main>
+    <footer class="xl:w-11/12 mx-auto bg-orange-50 py-5">
+          <section class="w-11/12 mx-auto flex flex-col md:flex-row items-center justify-center">
+              <div class="flex-1 p-5 flex  justify-center flex-col gap-5  ">
+                <h3 class="text-2xl md:text-3xl font-bold text-cen">Let's Connect</h3>
+                <p class="text-sm">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <div class="flex items-center justify-evenly w-fit gap-4">
+                    <div><img src="./images/icons/facebook.png" alt="font-bold"></div>
+                    <div><img src="./images/icons/twitter.png" alt="x"></div>
+                    <div><img src="./images/icons/insta.png" alt="instagram"></div>
+                </div>
+              </div>
+
+              <div class="flex-1 p-5 flex  justify-center flex-col gap-5"> 
+                <h3 class="text-2xl md:text-3xl font-bold">Let’s Message me</h3>
+                <div class="flex flex-col gap-5">
+                    <input type="text" placeholder="Your name" class="input border-0" />
+                    <input type="email" placeholder="Your email" class="input border-0" />
+                    <textarea class="textarea" placeholder="Message"></textarea>
+                </div>
+                <div class="w-fit">
+                  <button class="btn btn-primary bg-orange-500 border-0 text-white font-bold">Submit</button>
+                </div>
+              </div>
+          </section>
+    </footer>
 </body>
+
 </html>
